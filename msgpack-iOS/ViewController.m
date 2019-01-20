@@ -8,6 +8,8 @@
 
 #import "ViewController.h"
 
+#include "ex1.h"
+
 @interface ViewController ()
 
 @end
@@ -16,6 +18,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    ex1();
     // Do any additional setup after loading the view, typically from a nib.
 }
 
